@@ -241,7 +241,7 @@ export default function Home() {
             <img 
               src="/ceo.jpg" 
               alt="CEO" 
-              className="w-48 h-48 rounded-full mx-auto mb-6 border-6 border-white shadow-2xl object-cover"
+              className="w-50 h-50 rounded-full mx-auto mb-6 border-6 border-white shadow-2xl object-cover"
             />
           </div>
           
