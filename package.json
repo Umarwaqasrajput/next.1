@@ -1,17 +1,34 @@
 {
-  "name": "next.1",
-  "version": "0.1.0",
+  "name": "rajput-real-estate",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "db:push": "prisma db push",
+    "db:generate": "prisma generate",
+    "db:seed": "tsx prisma/seed.ts"
   },
   "dependencies": {
+    "@prisma/client": "^5.7.1",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-slider": "^1.1.2",
+    "@radix-ui/react-switch": "^1.0.3",
+    "@radix-ui/react-toast": "^1.1.5",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "lucide-react": "^0.294.0",
     "next": "16.0.3",
+    "next-themes": "^0.2.1",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "swiper": "^11.0.5",
+    "tailwind-merge": "^2.2.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -20,7 +37,9 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.0.3",
+    "prisma": "^5.7.1",
     "tailwindcss": "^4",
+    "tsx": "^4.6.2",
     "typescript": "^5"
   }
 }
