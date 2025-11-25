@@ -212,6 +212,7 @@ export default function Home() {
               <a href="/buy" className="bg-emerald-500 text-white px-4 py-2 rounded-lg hover:bg-emerald-600 transition-all shadow-md font-medium">Buy</a>
               <a href="/rent" className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition-all shadow-md font-medium">Rent</a>
               <a href="/plots" className="bg-teal-500 text-white px-4 py-2 rounded-lg hover:bg-teal-600 transition-all shadow-md font-medium">Plots</a>
+              <a href="/installment-plots" className="bg-yellow-500 text-white px-4 py-2 rounded-lg hover:bg-yellow-600 transition-all shadow-md font-medium">Installment Plots</a>
               <a href="/investment" className="bg-rose-500 text-white px-4 py-2 rounded-lg hover:bg-rose-600 transition-all shadow-md font-medium">Investment</a>
               <a href="tel:+923066120708" className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-all shadow-lg flex items-center gap-2 font-medium">
                 <Phone size={16} />
